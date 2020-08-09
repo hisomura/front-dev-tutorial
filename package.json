@@ -1,0 +1,16 @@
+{
+  "name": "front-dev-tutorial",
+  "version": "1.0.0",
+  "description": "https://www.udemy.com/course/front-dev-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.10"
+  }
+}
