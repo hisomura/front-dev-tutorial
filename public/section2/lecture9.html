@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9. CSSのこれだけは知っておいて！詳細度について</title>
+</head>
+
+<body>
+<div class="parent">
+    <span id="first" class="child">Hello, World! 1</span>
+    <span id="second" class="child">Hello, World! 2</span>
+    <span>Hello, World! 3</span>
+    <span>Hello, World! 4</span>
+</div>
+
+</body>
+<style>
+    span {
+        color: purple;
+    }
+
+    .parent {
+        color: blue;
+        font-weight: 600;
+    }
+
+    .child {
+        color: orange
+    }
+
+    .parent span {
+        color: red;
+    }
+
+    .parent span {
+        color: black;
+    }
+
+    #first {
+        color: magenta;
+    }
+</style>
+</html>

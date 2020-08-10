@@ -4,7 +4,7 @@
   "description": "https://www.udemy.com/course/front-dev-tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server --baseDir=\"public\""
   },
   "author": "",
   "license": "ISC",
