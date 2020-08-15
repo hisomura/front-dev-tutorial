@@ -1,4 +1,4 @@
 /index.html
 /style.scss
-/style.css
-/style.css.map
+*.css
+*.css.map
