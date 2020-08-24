@@ -1,0 +1,47 @@
+h2 {
+  font-size: medium;
+  font-weight: normal;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+
+  &:visited {
+    color: blue;
+  }
+
+  &:hover {
+    color: red;
+  }
+
+  &:focus {
+    color: green;
+  }
+
+  &:active {
+    color: purple;
+  }
+}
+
+div {
+  & span {
+    color: olive;
+    font-weight: bold;
+  }
+
+  &.nth-child span:nth-child(2n) {
+    color: purple;
+  }
+
+  &.nth-of-type span:nth-of-type(2n) {
+    color: purple;
+  }
+
+  &.not span:not(:last-child) {
+    color: aqua;
+  }
+  &.not span:not(.special) {
+    color: chartreuse;
+  }
+}
