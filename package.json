@@ -4,13 +4,13 @@
   "description": "https://www.udemy.com/course/front-dev-tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=\"public\""
+    "start": "lite-server --baseDir=\"public\" --bind=\"0.0.0.0\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4",
-    "prettier": "^2.0.5",
-    "sass": "^1.26.10"
+    "lite-server": "^2.6.1",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.12"
   }
 }
